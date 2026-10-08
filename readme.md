@@ -16,7 +16,10 @@
 
 ## 4. Cấu hình Nginx
 - Port : 8081 cổng công khai
-- server_name: quản lý dự án tên server
+- server_name: 221.121.4.43 địa chỉ máy chủ
+- index_file: index.html file html muốn hiển thị
+- web_root /var/www/devops-hackathon-de003/buithaison/src tên đường đẫn tới file html
+- ten_tai_khoan: sonbui-k24cntt2 tên tài khoản linux
 
 ## 5. Tưởng lửa
 sudo ufw default deny incoming
