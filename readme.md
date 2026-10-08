@@ -4,7 +4,6 @@
 |Họ và tên       | Mã sinh viên  | Lớp          | Tài khoản Linux    |Github                                                       | Cổng Linux    |
 |----------------|---------------|--------------|--------------------|-------------------------------------------------------------|---------------|
 | Bùi Thái Sơn   | B24DTCN274    | HN-K24-CNTT2 | sonbui-k24cntt2    | github.com/buithaison17/devops-hackathon-de003-buithaison   | 8081          |
-|----------------|---------------|--------------|--------------------|-------------------------------------------------------------|---------------|
 
 ## 2.Môi trường triển khai
 - Hệ điều hành: Ubuntu.
@@ -22,27 +21,27 @@
 - ten_tai_khoan: sonbui-k24cntt2 tên tài khoản linux
 
 ## 5. Tưởng lửa
-sudo ufw default deny incoming
-sudo ufw default allow outgoing
-sudo ufw allow 22/tcp
-sudo uwfw allow 8081/tcp
+- sudo ufw default deny incoming
+- sudo ufw default allow outgoing
+- sudo ufw allow 22/tcp
+- sudo uwfw allow 8081/tcp
 
-##6. Các câu lệnh triển khai
-    1  sudo apt install -y ufw nginx git curl
-    2  git config --global user.name "buithaison17"
-    3  git config --global user.email "thaisonb936@gmail.com"
-    4  sudo ufw default deny incoming
-    5  sudo ufw default allow outgoing
-    6  sudo ufw 22/tcp
-    7  sudo ufw allow 22/tcp
-    8  sudo ufw allow 8081/tcp
-    9  sudo ufw enable
-   10  sudo mkdir /www/var
-   11  sudo mkdir -p /www/var
-   12  sudo cat /www/var/index.html
-   13  clear
-   14  sudo nano /etc/nginx/sites-available/sonbui-k24cntt2.conf
-   15  sudo ln -s /etc/nginx/sites-available/sonbui-k24cntt2.conf /etc/nginx/sites-enabled/
+## 6. Các câu lệnh triển khai
+   - 1  sudo apt install -y ufw nginx git curl
+   - 2  git config --global user.name "buithaison17"
+   - 3  git config --global user.email "thaisonb936@gmail.com"
+   - 4  sudo ufw default deny incoming
+    - 5  sudo ufw default allow outgoing
+    - 6  sudo ufw 22/tcp
+    - 7  sudo ufw allow 22/tcp
+   - 8  sudo ufw allow 8081/tcp
+   - 9  sudo ufw enable
+   -10  sudo mkdir /www/var
+ -  11  sudo mkdir -p /www/var
+  - 12  sudo cat /www/var/index.html
+  - 13  clear
+  - 14  sudo nano /etc/nginx/sites-available/sonbui-k24cntt2.conf
+  - 15  sudo ln -s /etc/nginx/sites-available/sonbui-k24cntt2.conf /etc/nginx/sites-enabled/
    16  sudo nginx -t
    17  sudo nano /etc/nginx/sites-available/sonbui-k24cntt2.conf
    18  sudo nginx -t
